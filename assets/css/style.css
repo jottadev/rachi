@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 5rem;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  font-family: "Inter";
+  font-size: 18px;
+  color: #6E7275;
+  position: relative;
+}
+header ul li a:before {
+  content: "";
+  display: block;
+  background: linear-gradient(-27deg, rgb(15, 154, 254) 0%, rgb(255, 255, 255) 100%);
+  width: 0%;
+  position: absolute;
+  left: 0px;
+  bottom: -3px;
+  height: 3px;
+  border-radius: 5px;
+  transition: width 0.2s ease-in-out;
+}
+header ul li a:hover::before {
+  width: 97%;
+}/*# sourceMappingURL=style.css.map */
