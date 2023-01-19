@@ -169,5 +169,216 @@ main{
 
     }
 
+    .download-app{
+        background: #EFF8FF;
+        height: 68vh;
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 10rem;   
+
+        .content-download-app{
+            h2{
+                color: $gray-dark-color;
+                font-family: $font-sora;
+                font-weight: 600;
+                font-size: 32px;
+
+                margin-bottom: 24px;
+            }
+
+            p{
+                width: 444px;
+                color: $gray-color;
+                font-family: $font-inter;
+                font-size: 16px;
+                margin-bottom: 36px;
+            }
+
+            button{
+                background: none;
+                border: 0;
+
+                &:hover{
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+
+    .plans-prices{
+        background: #FFF;
+        height: 120vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+
+        .content-plans-prices{
+            text-align: center;
+
+            h2{
+                font-weight: 600;
+                font-family: $font-sora;
+                color: $gray-dark-color;
+                font-size: 40px;
+
+                margin-bottom: 16px;
+            }
+
+            p{
+                width: 570px;
+                color: $gray-color;
+                font-weight: 400;
+                font-family: $font-inter;   
+                font-size: 18px;
+            }
+        }
+        
+
+        .container-boxs-prices{
+            width: 80vw;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+
+    
+
+            div{
+                background: #EFF8FF;
+                width: 370px;
+                height: 470px;
+                border-radius: 8px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                flex-wrap: nowrap;
+
+                border: 1px solid #FFF;
+
+                &:hover{
+                    border: 1px solid $gray-dark-color;
+                }
+
+                &:nth-child(2){
+                    background: $gray-dark-color;
+
+                    h3{
+                        font-family: $font-sora;
+                        color: #FFF;
+                        font-weight: 600;
+                        font-size: 32px;
+
+                    }
+
+                    h5{
+                        color: #FFF;
+                        font-family: #FFF;
+                        font-weight: 400;
+                        font-size: 26px;
+    
+                        span{
+                            font-size: 50px;
+                            font-weight: 600;
+                        }
+                    }
+
+                    p{
+                        width: 300px;
+                        text-align: center;
+                        font-weight: 400;
+                        font-family: $font-inter;
+                        color: #FFF;
+                        font-size: 18px;
+                    }
+
+                    button{
+                        width: 230px;
+                        height: 43px;
+                        border-radius: 50px;
+                        background: $blue-color;
+                        color: #fff;
+    
+                        font-family: $font-sora;
+                        font-size: 20px;
+                        font-weight: 600;
+                        border: 0;
+                        outline: none;
+    
+                        transition: .2s ease-in-out;
+    
+                        &:hover{
+                            color: $gray-dark-color;
+                            background: #EFF8FF;
+                            cursor: pointer;
+                        }
+                    }
+
+                }
+
+
+                h4{
+                    color: $gray-dark-color;
+                    font-family: $font-sora;
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+
+                h5{
+                    color: $gray-dark-color;
+                    font-family: $font-sora;
+                    font-weight: 400;
+                    font-size: 26px;
+
+                    span{
+                        font-size: 50px;
+                        font-weight: 600;
+                    }
+                }
+
+                p{
+                    width: 300px;
+                    text-align: center;
+                    font-weight: 400;
+                    font-family: $font-inter;
+                    color: $gray-color;
+                    font-size: 18px;
+                }
+
+                button{
+                    width: 230px;
+                    height: 43px;
+                    border-radius: 50px;
+                    background: $blue-color;
+                    color: #fff;
+
+                    font-family: $font-sora;
+                    font-size: 20px;
+                    font-weight: 600;
+                    border: 0;
+                    outline: none;
+
+                    transition: .2s ease-in-out;
+
+                    &:hover{
+                        background: $gray-dark-color;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
 
 }

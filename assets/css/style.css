@@ -125,4 +125,169 @@ main .about-work .container-boxs div p {
   color: #6E7275;
   font-size: 16px;
   font-weight: 400;
+}
+main .download-app {
+  background: #EFF8FF;
+  height: 68vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+main .download-app .content-download-app h2 {
+  color: #293145;
+  font-family: "Sora";
+  font-weight: 600;
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+main .download-app .content-download-app p {
+  width: 444px;
+  color: #6E7275;
+  font-family: "Inter";
+  font-size: 16px;
+  margin-bottom: 36px;
+}
+main .download-app .content-download-app button {
+  background: none;
+  border: 0;
+}
+main .download-app .content-download-app button:hover {
+  cursor: pointer;
+}
+main .plans-prices {
+  background: #FFF;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .plans-prices .content-plans-prices {
+  text-align: center;
+}
+main .plans-prices .content-plans-prices h2 {
+  font-weight: 600;
+  font-family: "Sora";
+  color: #293145;
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+main .plans-prices .content-plans-prices p {
+  width: 570px;
+  color: #6E7275;
+  font-weight: 400;
+  font-family: "Inter";
+  font-size: 18px;
+}
+main .plans-prices .container-boxs-prices {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+main .plans-prices .container-boxs-prices div {
+  background: #EFF8FF;
+  width: 370px;
+  height: 470px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  border: 1px solid #FFF;
+}
+main .plans-prices .container-boxs-prices div:hover {
+  border: 1px solid #293145;
+}
+main .plans-prices .container-boxs-prices div:nth-child(2) {
+  background: #293145;
+}
+main .plans-prices .container-boxs-prices div:nth-child(2) h3 {
+  font-family: "Sora";
+  color: #FFF;
+  font-weight: 600;
+  font-size: 32px;
+}
+main .plans-prices .container-boxs-prices div:nth-child(2) h5 {
+  color: #FFF;
+  font-family: #FFF;
+  font-weight: 400;
+  font-size: 26px;
+}
+main .plans-prices .container-boxs-prices div:nth-child(2) h5 span {
+  font-size: 50px;
+  font-weight: 600;
+}
+main .plans-prices .container-boxs-prices div:nth-child(2) p {
+  width: 300px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Inter";
+  color: #FFF;
+  font-size: 18px;
+}
+main .plans-prices .container-boxs-prices div:nth-child(2) button {
+  width: 230px;
+  height: 43px;
+  border-radius: 50px;
+  background: #0F9AFE;
+  color: #fff;
+  font-family: "Sora";
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+main .plans-prices .container-boxs-prices div:nth-child(2) button:hover {
+  color: #293145;
+  background: #EFF8FF;
+  cursor: pointer;
+}
+main .plans-prices .container-boxs-prices div h4 {
+  color: #293145;
+  font-family: "Sora";
+  font-weight: 600;
+  font-size: 24px;
+}
+main .plans-prices .container-boxs-prices div h5 {
+  color: #293145;
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 26px;
+}
+main .plans-prices .container-boxs-prices div h5 span {
+  font-size: 50px;
+  font-weight: 600;
+}
+main .plans-prices .container-boxs-prices div p {
+  width: 300px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Inter";
+  color: #6E7275;
+  font-size: 18px;
+}
+main .plans-prices .container-boxs-prices div button {
+  width: 230px;
+  height: 43px;
+  border-radius: 50px;
+  background: #0F9AFE;
+  color: #fff;
+  font-family: "Sora";
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+main .plans-prices .container-boxs-prices div button:hover {
+  background: #293145;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
