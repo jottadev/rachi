@@ -11,7 +11,7 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 0 5rem;
+  padding: 0 10rem;
 }
 header ul {
   display: flex;
@@ -33,7 +33,7 @@ header ul li a {
 header ul li a:before {
   content: "";
   display: block;
-  background: linear-gradient(-27deg, rgb(15, 154, 254) 0%, rgb(255, 255, 255) 100%);
+  background: #0F9AFE;
   width: 0%;
   position: absolute;
   left: 0px;
@@ -44,4 +44,85 @@ header ul li a:before {
 }
 header ul li a:hover::before {
   width: 97%;
+}
+
+main .presentation-main {
+  background: #EFF8FF;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem;
+}
+main .presentation-main h2 {
+  width: 574px;
+  font-family: "Sora";
+  color: #293145;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+main .presentation-main button {
+  background: #0F9AFE;
+  width: 200px;
+  height: 56px;
+  border-radius: 50px;
+  color: #FFF;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+main .presentation-main button:hover {
+  cursor: pointer;
+  background: #293145;
+}
+main .about-work {
+  background: #FFF;
+  height: 68vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .about-work h2 {
+  color: #293145;
+  font-family: "Sora";
+  font-weight: 600;
+  font-size: 40px;
+}
+main .about-work .container-boxs {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+main .about-work .container-boxs div {
+  width: 240px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+main .about-work .container-boxs div h4 {
+  font-family: "Sora";
+  color: #293145;
+  font-size: 18px;
+  font-weight: 600;
+}
+main .about-work .container-boxs div p {
+  font-family: "Inter";
+  color: #6E7275;
+  font-size: 16px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
